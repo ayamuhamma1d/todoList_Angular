@@ -1,0 +1,71 @@
+@import"~bootstrap/dist/css/bootstrap.css";
+.body{
+  font-family :'Times New Roman', Times, serif;
+}
+:root{
+  --main-color:#e37d95;
+}
+a{
+  text-decoration: none;
+}
+.btn__primary{
+  font-family: 'Young Serif', serif;
+
+  padding: 12px 25px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid var(--main-color) !important;
+  background:var(--main-color)  !important;
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+.btn__primary:hover{
+  opacity: .9;
+  color: #fff;
+
+}
+p{
+  margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+}
+.btn__secondary{
+  border: none;
+  color: #e37d95;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid var(--main-color) !important;
+  transform:all 0.5s ;
+  -webkit-transform:all 0.5s ;
+  -moz-transform:all 0.5s ;
+  -ms-transform:all 0.5s ;
+  -o-transform:all 0.5s ;
+}
+.btn__secondary:hover{
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid var(--main-color) !important;
+  background-color: var(--main-color);
+
+}
+h1,h2,h3,h4,h6
+{
+  font-family: 'Young Serif', serif;
+
+  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+
+}
+img{
+  width: 100%;
+}
